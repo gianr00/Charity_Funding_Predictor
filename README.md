@@ -1,4 +1,4 @@
-In Progress
+
 
 About: Using machine learning and neural networks to predict the applicant’s success for Charity Funding.
 
@@ -25,3 +25,4 @@ The nonprofit foundation Alphabet Soup wants a tool to help select the applicant
 * **IS_SUCCESSFUL**—Was the money used effectively
 
 ## Solution:
+In Progress
