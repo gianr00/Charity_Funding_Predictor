@@ -1,7 +1,4 @@
 
-
-About: Using machine learning and neural networks to predict the applicant’s success for Charity Funding.
-
 # Charity Funding Predictor
 
 Author: Rosie Gianan, gianr00@gmail.com
