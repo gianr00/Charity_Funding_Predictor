@@ -1,4 +1,3 @@
-
 # Charity Funding Predictor
 
 Author: Rosie Gianan, gianr00@gmail.com
@@ -22,4 +21,24 @@ The nonprofit foundation Alphabet Soup wants a tool to help select the applicant
 * **IS_SUCCESSFUL**—Was the money used effectively
 
 ## Solution:
-In Progress
+1.    Preprocess the data
+Determine the number of unique values for each column and determine the number of data points for each unique value. Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, `Other`, and then check if the binning was successful.
+ 
+2.  Compile, Train, and Evaluate the Model
+Using TensorFlow and Keras, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Create an output layer with an appropriate activation function. Compile and train the model. Evaluate the model using the test data to determine the loss and accuracy.
+
+3.  Optimize the Model
+Using TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+
+Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+-    Dropping more or fewer columns.
+-    Creating more bins for rare occurrences in columns.
+-    Increasing or decreasing the number of values for each bin.
+-    Add more neurons to a hidden layer.
+-    Add more hidden layers.
+-    Use different activation functions for the hidden layers.
+-    Add or reduce the number of epochs to the training regimen.
+
+4. Create a summary report. 
+    Note: See the [Report_Charity_Funding_Predictor.pdf](Report_Charity_Funding_Predictor.pdf) for the results and summary.
+
